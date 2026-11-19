@@ -24,6 +24,6 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     - run: echo "${{ env.GITHUB_ACTIONS }}"
-    - run: echo "${{ github.ref }} - "${{ github.repository }}"
+    - run: echo "${{ github.ref }} - ${{ github.repository }}"
     - run: echo "${{ github.event_name }}"
 
